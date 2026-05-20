@@ -1,3 +1,11 @@
+{
+  Project : pspkg Pascal System Toolkit
+  File    : pspkg.pas
+  Author  : Mohammed Alotaibi
+  Nickname: Motaibi1989
+  Email   : Motaibi1989@gmail.com
+}
+
 program pspkg;
 
 {$mode objfpc}{$H+}
@@ -84,9 +92,7 @@ end;
 begin
   Logger := TLog.Create;
   try
-    WriteLn('═══════════════════════════════════');
-    WriteLn('  pspkg Pascal System Toolkit      ');
-    WriteLn('═══════════════════════════════════');
+    WriteLn('pspkg Pascal System Toolkit');
     WriteLn;
 
     try
